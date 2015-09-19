@@ -76,9 +76,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D8CE17201BAE220C00DE22DA /* LMDB */ = {
+		D8CE17201BAE220C00DE22DA /* LMDB-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8CE17291BAE220C00DE22DA /* Build configuration list for PBXNativeTarget "LMDB" */;
+			buildConfigurationList = D8CE17291BAE220C00DE22DA /* Build configuration list for PBXNativeTarget "LMDB-Mac" */;
 			buildPhases = (
 				D8CE171C1BAE220C00DE22DA /* Sources */,
 				D8CE171D1BAE220C00DE22DA /* Frameworks */,
@@ -89,7 +89,7 @@
 			);
 			dependencies = (
 			);
-			name = LMDB;
+			name = "LMDB-Mac";
 			productName = LMDB;
 			productReference = D8CE17211BAE220C00DE22DA /* LMDB.framework */;
 			productType = "com.apple.product-type.framework";
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8CE17201BAE220C00DE22DA /* LMDB */,
+				D8CE17201BAE220C00DE22DA /* LMDB-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -244,7 +244,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.neilpa.LMDB;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -262,7 +262,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.neilpa.LMDB;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -279,7 +279,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8CE17291BAE220C00DE22DA /* Build configuration list for PBXNativeTarget "LMDB" */ = {
+		D8CE17291BAE220C00DE22DA /* Build configuration list for PBXNativeTarget "LMDB-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8CE172A1BAE220C00DE22DA /* Debug */,
